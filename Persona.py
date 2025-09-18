@@ -16,7 +16,7 @@ def actividad():
                 print("Muchas Gracias por participar")
             return self.cont 
         def visualizar(self):
-            print(f"su contraseña es {self.cont}")
+            print(f"{self.nombre} de {self.edad} años de edad,su contraseña es {self.cont}")
     nombre  = input("Por favor ingrese su nombre: ")
     edd = input(" Cual es su edad en años?: ")
     persona1 = Persona(nombre,edd)  
